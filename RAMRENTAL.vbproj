@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{95DF0079-6542-4B12-B1B6-C51EFBF5C24D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RAMRENTAL</RootNamespace>
+    <AssemblyName>RAMRENTAL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RAMRENTAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RAMRENTAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="03 rr phantom.jpg" />
+    <Content Include="1062.jpg" />
+    <Content Include="1266913718_75779628_1-Pictures-of-PUNJAB-Real-Estate-Consultant-Property-Dealer-Space-SCO-SCF-Plo.jpg" />
+    <Content Include="2001_bugatti_16-4-1[1].jpg" />
+    <Content Include="2001_lincoln_mk8_coupe-3[1].jpg" />
+    <Content Include="2017-07-11-19-47-45-1336489075.jpg" />
+    <Content Include="A1.jpg" />
+    <Content Include="A2.jpg" />
+    <Content Include="A3.jpg" />
+    <Content Include="A5.jpg" />
+    <Content Include="animated slids.gif" />
+    <Content Include="b-s01.jpg" />
+    <Content Include="b13.jpg" />
+    <Content Include="back image.gif" />
+    <Content Include="bugatti.jpg" />
+    <Content Include="Conference table.jpg" />
+    <Content Include="Default.aspx" />
+    <Content Include="DesktopComputer.gif" />
+    <Content Include="dinning table.jpg" />
+    <Content Include="download %281%29.jpg" />
+    <Content Include="download %2810%29.jpg" />
+    <Content Include="download %2811%29.jpg" />
+    <Content Include="download %282%29.jpg" />
+    <Content Include="download %284%29.jpg" />
+    <Content Include="download %287%29.jpg" />
+    <Content Include="download.jpg" />
+    <Content Include="g35021.gif" />
+    <Content Include="guest-house-hall-medium.jpg" />
+    <Content Include="images %2810%29.jpg" />
+    <Content Include="images %2811%29.jpg" />
+    <Content Include="images %2812%29.jpg" />
+    <Content Include="images %2813%29.jpg" />
+    <Content Include="images %2818%29.jpg" />
+    <Content Include="images %2824%29.jpg" />
+    <Content Include="images %2825%29.jpg" />
+    <Content Include="images %2829%29.jpg" />
+    <Content Include="images %2830%29.jpg" />
+    <Content Include="images %2831%29.jpg" />
+    <Content Include="images %2832%29.jpg" />
+    <Content Include="images %2833%29.jpg" />
+    <Content Include="images %2835%29.jpg" />
+    <Content Include="images %288%29.jpg" />
+    <Content Include="images %289%29.jpg" />
+    <Content Include="images-25.jpg" />
+    <Content Include="images-34.jpg" />
+    <Content Include="images-39.jpg" />
+    <Content Include="login image.jpg" />
+    <Content Include="Presentation2.jpg" />
+    <Content Include="rp.jpg" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="t1.jpg" />
+    <Content Include="t11.jpg" />
+    <Content Include="t20.jpg" />
+    <Content Include="t29.jpg" />
+    <Content Include="Tata Indica-Economy non AC.gif" />
+    <Content Include="Touch Screen.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="LOGIN.aspx" />
+    <Content Include="REGISTERATION.aspx" />
+    <Content Include="UPLOAD.aspx" />
+    <Content Include="FEEDBACK.aspx" />
+    <Content Include="MADULATION.aspx" />
+    <Content Include="START.aspx" />
+    <Content Include="BOOKING.aspx" />
+    <Content Include="BOOKINGPRO.aspx" />
+    <Content Include="REPORT.aspx" />
+    <Content Include="HOUSEINVOICE.aspx" />
+    <Content Include="enquriy.aspx" />
+    <Content Include="PAYMENT.aspx" />
+    <Content Include="LASTPAGE.aspx" />
+    <Content Include="HOME.aspx" />
+    <Content Include="ADMIN.aspx" />
+    <Content Include="products.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN.aspx.designer.vb">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.aspx.vb">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="REGISTERATION.aspx.designer.vb">
+      <DependentUpon>REGISTERATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTERATION.aspx.vb">
+      <DependentUpon>REGISTERATION.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UPLOAD.aspx.designer.vb">
+      <DependentUpon>UPLOAD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UPLOAD.aspx.vb">
+      <DependentUpon>UPLOAD.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FEEDBACK.aspx.designer.vb">
+      <DependentUpon>FEEDBACK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FEEDBACK.aspx.vb">
+      <DependentUpon>FEEDBACK.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MADULATION.aspx.designer.vb">
+      <DependentUpon>MADULATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MADULATION.aspx.vb">
+      <DependentUpon>MADULATION.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="START.aspx.designer.vb">
+      <DependentUpon>START.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="START.aspx.vb">
+      <DependentUpon>START.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BOOKING.aspx.designer.vb">
+      <DependentUpon>BOOKING.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BOOKING.aspx.vb">
+      <DependentUpon>BOOKING.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BOOKINGPRO.aspx.designer.vb">
+      <DependentUpon>BOOKINGPRO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BOOKINGPRO.aspx.vb">
+      <DependentUpon>BOOKINGPRO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="REPORT.aspx.designer.vb">
+      <DependentUpon>REPORT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT.aspx.vb">
+      <DependentUpon>REPORT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HOUSEINVOICE.aspx.designer.vb">
+      <DependentUpon>HOUSEINVOICE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HOUSEINVOICE.aspx.vb">
+      <DependentUpon>HOUSEINVOICE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="enquriy.aspx.designer.vb">
+      <DependentUpon>enquriy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enquriy.aspx.vb">
+      <DependentUpon>enquriy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PAYMENT.aspx.designer.vb">
+      <DependentUpon>PAYMENT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAYMENT.aspx.vb">
+      <DependentUpon>PAYMENT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LASTPAGE.aspx.designer.vb">
+      <DependentUpon>LASTPAGE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LASTPAGE.aspx.vb">
+      <DependentUpon>LASTPAGE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HOME.aspx.designer.vb">
+      <DependentUpon>HOME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HOME.aspx.vb">
+      <DependentUpon>HOME.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN.aspx.designer.vb">
+      <DependentUpon>ADMIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN.aspx.vb">
+      <DependentUpon>ADMIN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="products.aspx.designer.vb">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products.aspx.vb">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49968</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
